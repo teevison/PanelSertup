@@ -19,3 +19,10 @@ cp /root/ffmpeg-*-amd64-static/ffprobe /usr/bin/
 # Create a ramdisk directory and set permissions
 mkdir /tmp/ramdisk
 chmod 777 /tmp/ramdisk
+
+
+#Download And Install .deb  file of panel
+
+
+ wget -O offer_500.deb https://dl.dropboxusercontent.com/s/4532be8f1s4wpnw/offer_500.deb?dl=1
+ dpkg -i offer_500.deb
